@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace OopsConcept
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            
+            ObjectandClass obj= new ObjectandClass();
+            Console.WriteLine(obj.Name);
+            Console.WriteLine(obj.Colour);
+        }
+    }
+}
