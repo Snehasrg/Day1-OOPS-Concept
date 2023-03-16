@@ -4,9 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Cow cow = new Cow();
-            cow.Eat();
-            cow.AnimalSound();
+             VariableTypes.Get();
         }
     }
 }
