@@ -4,10 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            MethodTypes.Get();
-
-            MethodTypes obj = new MethodTypes();
-            obj.GetValue();     
+            
+            ValueType.TestValueType();
+            ReferenceType.TestReferenceType();
         }
     }
 }
