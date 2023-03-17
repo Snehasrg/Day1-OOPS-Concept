@@ -4,9 +4,13 @@
     {
         public static void Main(string[] args)
         {
-            
-            ValueType.TestValueType();
-            ReferenceType.TestReferenceType();
+            Car2 myCar = new Car2();
+            myCar.honk();
+            myCar.honk2();
+            myCar.honk4();
+            Bike mybike = new Bike();
+            mybike.honk3();   
+
         }
     }
 }
